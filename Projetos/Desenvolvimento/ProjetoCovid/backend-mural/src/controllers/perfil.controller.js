@@ -10,7 +10,7 @@ module.exports = {
         .where('professor_id', professor_id)
         .select('*');
 
-        console.log(publicacoes)
+        console.log(publicacoes);
 
         return response.json(publicacoes);
     }
